@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Hybrid">
+	<test name = "keyword_driver">
+		<classes>
+			<class name = "testng.Dialogue_alert_Test"/>
+			<class name = "testng.PracticeTest"></class>
+			<class name = "testng.Headless_browser"/>
+			<class name = "testng.Headless"/>
+			<class name = "testng.Orange_HRM"/>
+			<class name = "testng.Spicejet"/>
+		</classes>
+	</test>
+	<test name = "data_driven">
+		<classes>
+			<class name = "selenium_mavenProject.NaukriData"></class>
+			<!--class name = "selenium_mavenProject.DataproviderTest"/-->
+			<class name = "selenium_mavenProject.WritingDataInExistingSheet"/>
+			<class name = "selenium_mavenProject.WritingDataInNewSheet"/>
+			<class name = "selenium_mavenProject.Sample_excel_Test"/>
+		</classes>
+	</test>
+</suite>

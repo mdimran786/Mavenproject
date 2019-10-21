@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hybrid]">
+  <test thread-count="5" name="data_driven(failed)">
+    <classes>
+      <class name="selenium_mavenProject.DataproviderTest">
+        <methods>
+          <include name="facebookbrowser"/>
+          <include name="data" invocation-numbers="1 2 3 4 5"/>
+        </methods>
+      </class> <!-- selenium_mavenProject.DataproviderTest -->
+      <class name="selenium_mavenProject.Sample_excel_Test">
+        <methods>
+          <include name="excel"/>
+        </methods>
+      </class> <!-- selenium_mavenProject.Sample_excel_Test -->
+    </classes>
+  </test> <!-- data_driven(failed) -->
+</suite> <!-- Failed suite [Hybrid] -->
